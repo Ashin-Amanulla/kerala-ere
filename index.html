@@ -1,31 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <h1 class="display-1">Forms</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Web App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="todo-app">
+        <h1>Todo List</h1>
+        <input type="text" id="todo-input" placeholder="Add a new todo">
+        <button id="add-todo">Add</button>
+        <ul id="todo-list"></ul>
+    </div>
 
-    <div >
-      <label for="email">email <input id="email" type="text"  /></label>
-      <label for="password">password <input id="password" type="text"  /></label>
-      <button id="btn1">Submit</button>
+    <div id="crybanancat-popup" class="popup">
+        <img src="./banana-cat-crying.gif" alt="Crying Cat">
+        <audio id="crybanancat-sound" src="./cry-banana-cat.mp3"></audio>
+    </div>
+
+    <div id="chipichapa-popup" class="popup">
+        <img src="./chipi-chipi-chapa-chapa.gif" alt="Chipi Chapa Cat">
+        <audio id="chipichapa-sound" src="./chipi-chipi-chapa-chapa.mp3"></audio>
     </div>
 
     <script src="./script.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+</body>
 </html>
